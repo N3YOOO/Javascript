@@ -1,0 +1,18 @@
+{
+  "name": "backend_with_js",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Nehemiyah",
+  "type": "commonjs",
+  "main": "server1.js",
+  "scripts": {
+    "test": "node test.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
+    "pg": "^8.23.0"
+  }
+}
